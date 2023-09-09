@@ -4,9 +4,8 @@ body {
     background-color: #FFFFFF;
 }
 a {
-    text-decoretion: none;
+    text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
@@ -207,4 +206,9 @@ background: #2E2F42;
 }
 .logo-studio-white {
 color: #F4F4FD;
+}
+.container {
+    max-width: 1200px;
+    margin: 8 auto;
+    padding: 0 32px;
 }
