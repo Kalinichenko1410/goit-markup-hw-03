@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoretion: none;
+}
+
+ul {
+    list-style: none;
+}
+/* Header */
+.header {
+background-color: #FFF;
+}
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.17;
+}
+.logo-studio{
+    color: #2e2f42;
+}
+.nav-item{
+color: #2E2F42;
+}
+.nav-item:hover{
+    color: #404bbf;
+}
+.nav-item:focus{
+    color: #404bbf;
+}
+.nav-list {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+}
+.nav-studio {
+    color: #2e2f42;
+}
+.nav-studio:hover{
+    color: #404bbf;
+}
+.nav-studio:focus {
+    color: #404bbf;
+}
+.nav-list:active {
+    flex-shrink: 0;
+    color: #404BBF;
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+}
+.nav-contacts {
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        font-style: normal;
+    }
+        .nav-contacts:hover{
+            color: #404bbf;
+        }
+.nav-contacts:focus{
+    color: #404bbf;
+}
+.nav-contacts:active{
+        justify-content: center;
+        flex-shrink: 0;
+        color: #404BBF;
+
+}
+/* Main */
+.main-section {
+background-color:  #2E2F42;
+}
+.main-header {
+    color:  #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+line-height: 1.07;
+    }
+    .order-button {
+        font-family: "Roboto",sans-serif;
+        background-color: #404BBF;
+background: #4D5AE5;
+color: #FFF;
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        border : 0px;
+    }
+         .order-button:hover{
+                    background: #404BBF;
+         }
+         .order-button:focus{
+            background-color: #404BBF;
+         }
+/* Benefits */
+.benefit-name {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.benefits {
+    color:#434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* Team */
+.team-section {
+        flex-shrink: 0;
+        background-color: #F4F4FD;
+}
+.team-header {
+color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+}
+.member-name {
+color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.member-post{
+color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* Portfolio */
+.portfolio-title {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.portfolio-name {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.portfolio-description {
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.member {
+background-color: #FFFFFF
+}
+/* Footer */
+.footer {
+background: #2E2F42;
+    flex-shrink: 0;
+}
+.footer-text {
+    color: #F4F4FD;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.logo-footer {
+            color: #F4F4FD; 
+            font-family: "Raleway",sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+}
+.logo-studio-white {
+color: #F4F4FD;
+}
