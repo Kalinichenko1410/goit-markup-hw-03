@@ -279,6 +279,7 @@ color: #434455;
 .portfolio-info{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .member {
 background-color: #FFFFFF
@@ -287,6 +288,7 @@ background-color: #FFFFFF
 .footer {
 background: #2E2F42;
     flex-shrink: 0;
+    padding: 100px 0;
 }
 .footer-text {
     color: #F4F4FD;
@@ -304,6 +306,8 @@ background: #2E2F42;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             text-decoration: none;
+            display: inline-block;
+            margin-bottom: 16px; 
 }
 .logo-studio-white {
 color: #F4F4FD;
