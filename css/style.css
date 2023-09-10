@@ -12,9 +12,9 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
 }
 .container {
-    max-width: 1200px;
     margin: 8 auto;
     padding: 0 15px;
 }
@@ -28,6 +28,7 @@ border-bottom: 1px solid #e7e9fc
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+        align-items: center;
 }
 .header-nav{
     display: flex;
@@ -53,7 +54,7 @@ border-bottom: 1px solid #e7e9fc
 .nav-item{
 color: #2E2F42;
 padding: 24px 0;
-align-items: center;
+
 }
 .nav-item:hover{
     color: #404bbf;
@@ -72,6 +73,8 @@ align-items: center;
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    display: flex;
+    align-items: end;
 }
 .nav-studio {
     color: #2e2f42;
@@ -89,6 +92,7 @@ align-items: center;
 }
 address {
     font-style: normal;
+    display: block;
     align-items: center;
 }
 .nav-contacts {
@@ -99,7 +103,8 @@ address {
         letter-spacing: 0.02em;
         text-decoration: none;
         font-style: normal;
-        align-items: center;
+        display: block;
+            align-items: center;
     }
         .nav-contacts:hover{
             color: #404bbf;
@@ -116,6 +121,9 @@ address {
 .nav-contacts-list{
 display: flex;
 gap: 40px;
+display: flex;
+    align-items: center;
+
 }
 /* Main */
 .main-section {
@@ -130,6 +138,8 @@ padding: 188px 0;
         letter-spacing: 0.02em;
 line-height: 1.07;
 max-width: 496px;
+margin-left: auto;
+margin-right: auto;
     }
     .order-button {
         font-family: "Roboto",sans-serif;
@@ -146,6 +156,8 @@ color: #FFF;
         min-width: 169px;
         height: 56px;
         border-radius: 4px;
+margin-left: auto;
+margin-right: auto;
     }
          .order-button:hover{
                     background: #404BBF;
@@ -230,7 +242,7 @@ color: #434455;
     text-align: center
 }
 .member{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 12px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .member-info{
@@ -298,7 +310,7 @@ background: #2E2F42;
         letter-spacing: 0.02em;
 }
 .logo-footer {
-            color: #F4F4FD; 
+            color: #4D5AE5; 
             font-family: "Raleway",sans-serif;
             font-size: 18px;
             font-weight: 700;
