@@ -149,6 +149,9 @@ color: #FFF;
             background-color: #404BBF;
          }
 /* Benefits */
+.benefits-section{
+padding: 120px 0;
+}
 .benefit-name {
     color: #2E2F42;
         font-size: 20px;
