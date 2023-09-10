@@ -168,9 +168,6 @@ padding: 120px 0;
         display: flex;
         gap: 24px;
     }
-    .benefit-item{
-        width: calc((100% - 72px) / 4)
-    }
 .benefit-name {
     color: #2E2F42;
         font-size: 20px;
@@ -178,7 +175,6 @@ padding: 120px 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
-        width: calc((100% - 72px) / 4);
 }
 .benefits {
     color:#434455;
