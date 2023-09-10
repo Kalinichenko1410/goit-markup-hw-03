@@ -67,6 +67,7 @@ padding: 24px 0;
     text-decoration: none;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .nav-studio {
     color: #2e2f42;
