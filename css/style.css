@@ -50,9 +50,11 @@ border-bottom: 1px solid #e7e9fc
 }
 .nav-item{
 color: #2E2F42;
+padding: 24px 0;
 }
 .nav-item:hover{
     color: #404bbf;
+
 }
 .nav-item:focus{
     color: #404bbf;
