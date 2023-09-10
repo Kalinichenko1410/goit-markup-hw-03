@@ -50,7 +50,6 @@ border-bottom: 1px solid #e7e9fc
 }
 .nav-item{
 color: #2E2F42;
-padding: 24px 0;
 }
 .nav-item:hover{
     color: #404bbf;
@@ -114,14 +113,16 @@ gap: 40px;
 /* Main */
 .main-section {
 background-color:  #2E2F42;
+padding: 188px 0;
 }
 .main-header {
     color:  #FFF;
-        text-align: center;
+        text-align:center;
         font-size: 56px;
         font-weight: 700;
         letter-spacing: 0.02em;
 line-height: 1.07;
+max-width: 496px;
     }
     .order-button {
         font-family: "Roboto",sans-serif;
@@ -134,6 +135,10 @@ color: #FFF;
         letter-spacing: 0.04em;
         cursor: pointer;
         border : 0px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border-radius: 4px;
     }
          .order-button:hover{
                     background: #404BBF;
