@@ -42,7 +42,8 @@ border-bottom: 1px solid #e7e9fc
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    margin-right: 76px
+    margin-right: 76px;
+    padding: 24px 0;
 }
 .logo-studio{
     color: #2e2f42;
