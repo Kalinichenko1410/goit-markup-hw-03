@@ -152,6 +152,9 @@ color: #FFF;
 .benefits-section{
 padding: 120px 0;
 }
+.benefits-header{
+visibility: hidden;
+}
 .benefit-name {
     color: #2E2F42;
         font-size: 20px;
