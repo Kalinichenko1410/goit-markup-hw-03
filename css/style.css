@@ -12,6 +12,11 @@ ul {
 img {
     display: block;
 }
+.container {
+    max-width: 1200px;
+    margin: 8 auto;
+    padding: 0 32px;
+}
 /* Header */
 .header {
 background-color: #FFF;
@@ -21,7 +26,7 @@ border-bottom: 1px solid #e7e9fc
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px
 }
 .header-nav{
     display: flex;
@@ -227,9 +232,4 @@ background: #2E2F42;
 }
 .logo-studio-white {
 color: #F4F4FD;
-}
-.container {
-    max-width: 1200px;
-    margin: 8 auto;
-    padding: 0 32px;
 }
