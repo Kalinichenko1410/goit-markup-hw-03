@@ -9,9 +9,23 @@ a {
 ul {
     list-style: none;
 }
+img {
+    display: block;
+}
 /* Header */
 .header {
 background-color: #FFF;
+border-bottom: 1px solid #e7e9fc
+}
+.container-header{
+    display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 .logo {
     color: #4d5ae5;
@@ -22,6 +36,7 @@ background-color: #FFF;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
+    margin-right: 76px
 }
 .logo-studio{
     color: #2e2f42;
@@ -42,7 +57,9 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 .nav-studio {
     color: #2e2f42;
@@ -81,6 +98,10 @@ address {
         flex-shrink: 0;
         color: #404BBF;
 
+}
+.nav-contacts-list{
+display: flex;
+gap: 40px;
 }
 /* Main */
 .main-section {
