@@ -184,9 +184,8 @@ padding: 120px 0;
         letter-spacing: 0.02em;
 }
 .benefit-item{
-    margin: 0;
-    padding: 0;
-            flex-basis: calc ((100% - 72px) / 4);
+
+            flex-basis: calc((100% - 72px) / 4);
 }
 /* Team */
 .team-section {
